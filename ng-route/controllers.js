@@ -4,7 +4,7 @@ angular.module("CustomDirective")
         
                 $scope.repos = [];
         
-                $http.get("https://api.github.com/users/codigofacilito/repos").then(
+                $http.get("https://api.github.com/users/twitter/repos").then(
                     function(response){
         
                         $scope.posts = response.data;
